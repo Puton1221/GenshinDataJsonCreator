@@ -1,6 +1,3 @@
-# **THIS IS TEST VERSION!!**
-
-
 # GenshinDataJsonCreator
 
 # 📚Install
