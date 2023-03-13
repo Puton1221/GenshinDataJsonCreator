@@ -1,0 +1,22 @@
+{
+  "name": "genshindatajsoncreator",
+  "version": "1.0.0",
+  "description": "原神の画像生成に必要なdata.jsonをuidとキャラ名、計算方式を入力することで自動的に出力する",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puton1221/GenshinDataJsonCreator.git"
+  },
+  "author": "ぷとん",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Puton1221/GenshinDataJsonCreator/issues"
+  },
+  "homepage": "https://github.com/Puton1221/GenshinDataJsonCreator#readme",
+  "dependencies": {
+    "enkanetwork": "^1.3.1"
+  }
+}
