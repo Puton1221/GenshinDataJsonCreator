@@ -15,6 +15,9 @@ makeJson(uid, "Character Name", "Score Calculation Method")
     .then(data => {
         console.dir(data, { depth: null }); // Pass data object instead of data.json.
     });
+
+// Character Name is Japanese name.
+// Score Calculation Method is one of "ATTACK", "HP", "CHARGE" and "ELEMENT".
 ```
 
 ---
