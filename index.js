@@ -1,3 +1,3 @@
-const { makeJson } = require('./lib/makeJson.js');
+const makeJson = require('./lib/makeJson.js');
 
-module.exports = { makeJson };
+module.exports = makeJson;
