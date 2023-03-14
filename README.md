@@ -6,7 +6,7 @@
 # 📚Install
 - **Usage for`npm`**
   ```shell
-  npm i enkanetwork git+https://github.com/Puton1221/GenshinDataJsonCreator.git
+  npm i enkanetwork genshindatajsoncreator
   ```
   (Since our knowledge of packaging is limited, it may be difficult to support other languages.)
 
