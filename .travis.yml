@@ -1,3 +1,16 @@
+addons:
+  apt:
+    packages:
+    - enkanetwork
+    - ava
 language: node_js
 node_js:
+  - "19"
   - "18"
+  - "17"
+before_install:
+  - npm i -g npm@^18
+install:
+  - npm i
+script:
+  - npm test
