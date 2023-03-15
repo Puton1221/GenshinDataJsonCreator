@@ -1,7 +1,7 @@
 # GenshinDataJsonCreator
 | JP | [EN](README.md) |
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Puton1221/GenshinDataJsonCreator/npm-publish-github-packages.yml?label=BUILD%20RESULT&logo=When%20I%20Work&logoColor=white&style=for-the-badge)[![GitHub](https://img.shields.io/github/license/Puton1221/GenshinDataJsonCreator?color=success&logo=GitBook&logoColor=white&style=for-the-badge)](LICENSE)![Discord](https://img.shields.io/discord/867038364552396860?color=success&label=SUPPORT%20SERVER&logo=Discord&logoColor=white&style=for-the-badge)[![node.js - 18.15.0](https://img.shields.io/badge/node.js-18.15.0-success?color=success&style=for-the-badge&logo=Node.js&logoColor=white)](https://nodejs.org/ja/download/)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Puton1221/GenshinDataJsonCreator/npm-publish-github-packages.yml?label=BUILD%20RESULT&logo=When%20I%20Work&logoColor=white&style=for-the-badge)](https://github.com/Puton1221/GenshinDataJsonCreator/actions)[![GitHub](https://img.shields.io/github/license/Puton1221/GenshinDataJsonCreator?color=success&logo=GitBook&logoColor=white&style=for-the-badge)](LICENSE)![Discord](https://img.shields.io/discord/867038364552396860?color=success&label=SUPPORT%20SERVER&logo=Discord&logoColor=white&style=for-the-badge)[![node.js - 18.15.0](https://img.shields.io/badge/node.js-18.15.0-success?color=success&style=for-the-badge&logo=Node.js&logoColor=white)](https://nodejs.org/ja/download/)
 
 # 📚インストール
 - **`npm`での方法**
