@@ -1,6 +1,6 @@
 {
   "name": "genshindatajsoncreator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "原神の画像生成に必要なdata.jsonをuidとキャラ名、計算方式を入力することで自動的に出力する",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,12 @@
   "bugs": {
     "url": "https://github.com/Puton1221/GenshinDataJsonCreator/issues"
   },
-  "keywords": [ "genshin impact", "genshin", "genshin-impact", "hoyoverse" ],
+  "keywords": [
+    "genshin impact",
+    "genshin",
+    "genshin-impact",
+    "hoyoverse"
+  ],
   "homepage": "https://github.com/Puton1221/GenshinDataJsonCreator#readme",
   "devDependencies": {
     "ava": "^5.2.0",
