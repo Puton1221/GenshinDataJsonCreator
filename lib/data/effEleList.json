@@ -1,0 +1,9 @@
+{
+    "cryoDamage": "氷元素ダメージ",
+    "hydroDamage": "水元素ダメージ",
+    "anemoDamage": "風元素ダメージ",
+    "pyroDamage": "炎元素ダメージ",
+    "geoDamage": "岩元素ダメージ",
+    "electroDamage": "雷元素ダメージ",
+    "dendroDamage": "草元素ダメージ"
+}
