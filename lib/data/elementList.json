@@ -1,9 +1,9 @@
 {
-    "Cryo": "氷",
-    "Hydro": "水",
-    "Anemo": "風",
-    "Pyro": "炎",
-    "Geo": "岩",
-    "Electro": "雷",
-    "Dendro": "草"
+    "Ice": "氷",
+    "Water": "水",
+    "Wind": "風",
+    "Fire": "炎",
+    "Rock": "岩",
+    "Electric": "雷",
+    "Grass": "草"
 }
