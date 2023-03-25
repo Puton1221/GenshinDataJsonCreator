@@ -27,6 +27,6 @@
     "dotenv": "^16.0.3"
   },
   "dependencies": {
-    "enka-network-api": "^2.3.2"
+    "enka-network-api": "^2.4.2"
   }
 }
