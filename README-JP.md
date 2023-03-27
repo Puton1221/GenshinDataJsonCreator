@@ -10,7 +10,7 @@
 # 📚インストール
 - **`npm`での方法**
   ```shell
-  npm i enka-network-ap genshindatajsoncreator
+  npm i enka-network-api genshindatajsoncreator
   ```
   (パッケージに関する知識が浅いため、他の言語への対応は難しいです。)
 
