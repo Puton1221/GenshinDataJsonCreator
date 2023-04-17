@@ -6,7 +6,7 @@ dotenv.config();
 // 神里綾華
 
 test("makeJson complete", async t => {
-    const result = await makeJson(process.env.uid, "雷電将軍", "ATTACK");
+    const result = await makeJson(process.env.uid, "雷電将軍", "ATTACK", { cacheDirectory: "./cache" });
     console.dir(result, { depth: null })
     t.pass();
 });

@@ -19,13 +19,14 @@
 ❌ESM is not supported.
 ```js
 const makeJson = require('GenshinDataJsonCreator');
-makeJson(uid, "Character Name", "Score Calculation Method")
+makeJson(uid, "Character Name", "Score Calculation Method", { cacheDirectory: "./my-cache" })
     .then(data => {
         console.dir(data, { depth: null }); // Pass data object instead of data.json.
     });
 
 // Character Name is Japanese name.
 // Score Calculation Method is one of "ATTACK", "HP", "CHARGE" and "ELEMENT".
+// Default cacheDirectory is "./your-project-path/api-cache/".
 ```
 
 ---
