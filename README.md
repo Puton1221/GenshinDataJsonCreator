@@ -11,7 +11,7 @@
 # 📚Install
 - **Usage for `npm`**
   ```shell
-  npm i enka-network-api genshindatajsoncreator
+  npm i enka-network-api genshindatajsoncreator fs-extra
   ```
   (Since our knowledge of packaging is limited, it may be difficult to support other languages.)
 
