@@ -1,6 +1,6 @@
 {
   "name": "genshindatajsoncreator",
-  "version": "3.3.6",
+  "version": "3.4.6",
   "description": "原神の画像生成に必要なdata.jsonをuidとキャラ名、計算方式を入力することで自動的に出力する",
   "main": "index.js",
   "scripts": {
