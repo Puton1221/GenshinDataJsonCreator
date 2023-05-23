@@ -19,7 +19,7 @@
 ❌ESM is not supported.
 ```js
 const makeJson = require('GenshinDataJsonCreator');
-makeJson(uid, "Character Name", "Score Calculation Method", { cacheDirectory: "./my-cache" })
+makeJson(uid, "Character Name", "Score Calculation Method")
     .then(data => {
         console.dir(data, { depth: null }); // Pass data object instead of data.json.
     });
