@@ -1,3 +1,3 @@
-const makeJson = require('./lib/makeJson.js');
+const { cacheCreate, makeJson } = require('./lib');
 
-module.exports = makeJson;
+module.exports = { cacheCreate, makeJson };
