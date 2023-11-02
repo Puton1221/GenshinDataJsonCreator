@@ -5,6 +5,9 @@ import { effEle } from "./effEle";
 import { scoreCal } from "./scoreCal";
 import { totalCal } from "./totalCal";
 import { addArt } from "./addArt";
+import { GDJCError } from "../erros";
+import { ErrorCode } from "../erros/code";
+import { checker } from "./checker";
 
 export async function makeJson(
   enka: any,
@@ -12,10 +15,19 @@ export async function makeJson(
   charaName: string,
   scoreType: ScoreCode
 ) {
+  if (String(uid).length !== 9) {
+    throw new GDJCError(ErrorCode.UIDDigitsNotEnough);
+  }
+  if ((await checker(uid)) == "This player does not exist.") {
+    throw new GDJCError(ErrorCode.UIDInvalid);
+  }
   const user = await enka.fetchUser(uid);
   const info = user.characters.filter(
     (r: any) => charaName === r.characterData.name.get()
   );
+  if (info.length === 0) {
+    throw new GDJCError(ErrorCode.UnknownCharaName);
+  }
   const chara = info[0];
 
   const {
