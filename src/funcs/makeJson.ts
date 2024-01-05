@@ -18,9 +18,12 @@ export async function makeJson(
   if (String(uid).length !== 9) {
     throw new GDJCError(ErrorCode.UIDDigitsNotEnough);
   }
-  if ((await checker(uid)) == "This player does not exist.") {
+  /* fetchした際にJust a Momentが表示される
+  const userEx = await checker(uid);
+  if (userEx == "This player does not exist.") {
     throw new GDJCError(ErrorCode.UIDInvalid);
   }
+  */
   const user = await enka.fetchUser(uid);
   const info = user.characters.filter(
     (r: any) => charaName === r.characterData.name.get()

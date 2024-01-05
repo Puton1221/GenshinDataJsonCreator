@@ -1,6 +1,6 @@
 {
   "name": "genshindatajsoncreator",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "原神の画像生成に必要なdata.jsonをuidとキャラ名、計算方式を入力することで自動的に出力する",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/Puton1221/GenshinDataJsonCreator#readme",
   "dependencies": {
     "@types/node": "^20.8.10",
-    "enka-network-api": "^4.1.0"
+    "enka-network-api": "^4.1.6"
   }
 }
